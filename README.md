@@ -13,7 +13,7 @@ BeastShield - это плагин для Minecraft серверов версии
 
 ## Установка
 
-1. Скачайте последнюю версию плагина из [релизов](https://github.com/BeastMark/BeastShield/releases)
+1. Скачайте последнюю версию плагина из [релизов](https://github.com/BeastMark441/BeastShield/releases)
 2. Поместите JAR файл в папку `plugins` вашего сервера
 3. Перезапустите сервер
 4. Настройте конфигурацию в файле `plugins/BeastShield/config.yml`
