@@ -1,0 +1,19 @@
+name: BeastShield
+version: '1.0'
+main: ru.beastmark.beastshield.BeastShield
+api-version: '1.16'
+authors: [BeastMark]
+website: https://github.com/BeastMark/BeastShield
+description: Плагин для настройки задержки щита от разных предметов
+commands:
+  beastshield:
+    description: Основная команда плагина
+    usage: /<command> reload
+    permission: beastshield.use
+permissions:
+  beastshield.use:
+    description: Право на использование плагина
+    default: op
+  beastshield.exempt:
+    description: Право на обход ограничений задежки
+    default: op

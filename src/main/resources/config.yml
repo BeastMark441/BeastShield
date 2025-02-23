@@ -1,0 +1,44 @@
+# Стандартная задержка щита в тиках (20 тиков = 1 секунда)
+default-shield-cooldown: 100
+
+# Список предметов и их настройки
+# Формат:
+# MATERIAL_NAME:
+#   enabled: true/false
+#   cooldown: время в тиках
+items:
+  WOODEN_AXE:
+    enabled: true
+    cooldown: 100 #5 секунд
+  STONE_AXE:
+    enabled: true
+    cooldown: 120 #6 секунд
+  IRON_AXE:
+    enabled: true
+    cooldown: 140 #7 секунд
+  DIAMOND_AXE:
+    enabled: true
+    cooldown: 160 #8 секунд
+  NETHERITE_AXE:
+    enabled: true
+    cooldown: 180 #9 секунд
+  WOODEN_SWORD:
+    enabled: true
+    cooldown: 80 #4 секунды
+  STONE_SWORD:
+    enabled: true
+    cooldown: 90 #4.5 секунды
+  IRON_SWORD:
+    enabled: true
+    cooldown: 100 #5 секунд
+  DIAMOND_SWORD:
+    enabled: true
+    cooldown: 110 #5.5 секунд
+  NETHERITE_SWORD:
+    enabled: true
+    cooldown: 120 #6 секунд
+
+# Сообщения плагина
+messages:
+  reload: "&aКонфигурация успешно перезагружена!"
+  no-permission: "&cУ вас нет прав для использования этой команды!"
